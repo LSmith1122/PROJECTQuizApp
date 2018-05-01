@@ -3,7 +3,7 @@
     <string name="introduction_welcome">Welcome to the \nQuiz App!</string>
     <string name="introduction_about_quiz">In this quiz, you will be tested on your knowledge on photography basics. \nClick the \"Start Quiz\" button below to begin. \nGood luck!</string>
     <!--I'm so glad that I took notes on "Escape Characters" on my whiteboard next to me!-->
-    <string name="instructions">Read and answer each question. When finished, click on the \"Submit\" button to check your score.</string>
+    <string name="instructions">Read and answer each question. When finished, click the \"Submit\" button to check your score.</string>
     <string name="question_1">Name the device that a professional digital camera has that records information - ultimately creating an image.</string>
     <string name="question_1_1">Mirror</string>
     <string name="question_1_2">Film</string>
@@ -29,4 +29,9 @@
     <string name="question_5_3_1">R:</string>
     <string name="allowed_characters">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
     <string name="final_score">Congratulations on completing the Quiz! \n\nYour Final Score:</string>
+    <string name="correct_answer_q1">Sensor</string>
+    <string name="correct_answer_q2">Shutter Speed, Aperture</string>
+    <string name="correct_answer_q3">Stops</string>
+    <string name="correct_answer_q4">None of the above</string>
+    <string name="correct_answer_q5">Single, Lens, Reflex</string>
 </resources>

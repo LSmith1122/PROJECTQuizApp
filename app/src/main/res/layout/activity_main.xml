@@ -33,20 +33,20 @@
             android:background="@drawable/layout_bg"
             android:orientation="vertical">
 
-                <!-- Parent Group for Question Groups -->
+                <!-- Parent Group for com.example.android.projectquizapp.Question Groups -->
                 <LinearLayout
                     android:id="@+id/main_parent_view_group"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <!-- Question 1 -->
+                    <!-- com.example.android.projectquizapp.Question 1 -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- Question Text View -->
+                        <!-- com.example.android.projectquizapp.Question Text View -->
                         <TextView
                             android:id="@+id/question_1"
                             android:layout_width="wrap_content"
@@ -157,13 +157,13 @@
 
                     </LinearLayout>
 
-                    <!-- Question 2 -->
+                    <!-- com.example.android.projectquizapp.Question 2 -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- Question Text View -->
+                        <!-- com.example.android.projectquizapp.Question Text View -->
                         <TextView
                             android:id="@+id/question_2"
                             android:layout_width="wrap_content"
@@ -267,13 +267,13 @@
 
                     </LinearLayout>
 
-                    <!-- Question 3 -->
+                    <!-- com.example.android.projectquizapp.Question 3 -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- Question Text View -->
+                        <!-- com.example.android.projectquizapp.Question Text View -->
                         <TextView
                             android:id="@+id/question_3"
                             android:layout_width="wrap_content"
@@ -361,13 +361,13 @@
 
                     </LinearLayout>
 
-                    <!-- Question 4 -->
+                    <!-- com.example.android.projectquizapp.Question 4 -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- Question Text View -->
+                        <!-- com.example.android.projectquizapp.Question Text View -->
                         <TextView
                             android:id="@+id/question_4"
                             android:layout_width="wrap_content"
@@ -480,13 +480,13 @@
 
                     </LinearLayout>
 
-                    <!-- Question 5 -->
+                    <!-- com.example.android.projectquizapp.Question 5 -->
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- Question Text View -->
+                        <!-- com.example.android.projectquizapp.Question Text View -->
                         <TextView
                             android:id="@+id/question_5"
                             android:layout_width="wrap_content"
