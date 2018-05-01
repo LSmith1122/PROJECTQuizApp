@@ -5,14 +5,17 @@ import java.util.ArrayList;
 public class Question {
     private int tagNumber;
     private String questionString;
+    private String correctAnswerString;
     private ArrayList<Answer> answerList;
+    private ArrayList<String> correctAnswerList;
 
     Question(int tag, String question, String answer, String correctAnswer, Class answerSelectionType) {
         tagNumber = tag;
         questionString = question;
+        correctAnswerString = correctAnswer;
 
         compileAnswers(answer, answerSelectionType);
-
+        compileCorrectAnswers(correctAnswer);
     }
 
     Question(String tag, String question, String answer, String correctAnswer, String answerSelectionType, int imgResourceID) {
@@ -27,8 +30,18 @@ public class Question {
         return questionString;
     }
 
+    public ArrayList<String> getCorrectAnswers() {
+        return correctAnswerList;
+    }
+
+    private void compileCorrectAnswers(String a) {
+        String[] list = a.split(",");
+        for (String answerString : list) {
+            correctAnswerList.add(answerString);
+        }
+    }
+
     private void compileAnswers(String a, Class classType) {
-        // TODO: Separate the String of answers (by ",") into individual String answers, and then place them into an ArrayList
         String[] list = a.split(",");
         for (String answerString : list) {
             answerList.add(new Answer(classType, answerString));
